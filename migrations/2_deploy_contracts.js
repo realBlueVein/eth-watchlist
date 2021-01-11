@@ -1,5 +1,5 @@
-const Watchlist = artifacts.require("Migrations");
+const Watchlist = artifacts.require("./Watchlist.sol");
 
 module.exports = function(deployer) {
-  deployer.deploy(Migrations);
+  deployer.deploy(Watchlist);
 };
